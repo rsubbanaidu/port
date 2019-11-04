@@ -1,0 +1,51 @@
+h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #483698;
+  }
+  .name {
+     font-family: 'Pattaya', sans-serif;
+     font-family: 'Lobster', cursive;
+     font-family: 'Pacifico', cursive;
+     font-family: 'Satisfy', cursive;
+  
+  }
+  h1 {
+    font-size: calc(25px + (90 - 25) * ((100vw - 350px) / (1600 - 350)));
+    line-height: 5.5rem;
+  }
+  p.lead {
+    font-size: calc(8px + (25 - 8C:\Users\Rajkumar\Desktop\New folder (2)) * ((100vw - 350px) / (1600 - 350)));
+    font-weight: 400;
+    font-family: cursive;
+  }
+ 
+  .social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #00A3A1;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+  }
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  .social-icons a:hover {
+    background-color: #00338D;
+  }
+  .dev-icons {
+    font-size: 3rem;
+  }
+  .dev-icons .list-inline-item i:hover {
+    color: #bd5d38;
+  }

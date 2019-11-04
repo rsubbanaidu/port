@@ -1,0 +1,53 @@
+h2 {
+  font-size: calc(30px + (70 - 30) * ((100vw - 350px) / (1600 - 350)));
+  font-family: Arial, Helvetica, sans-serif;
+  color:#00338d;
+  font-weight: bold;
+}
+      
+   .card .card-header h2 {
+    cursor: pointer;
+    position: relative;
+    background-color:#0091DA;
+    margin:0;
+    padding: 15px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 0px;   
+    color: #fff;
+    font-weight: bold;
+  }
+ 
+   .btn-link {
+   color:#fff !important;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+   font-weight: bold !important;
+   width: 100%;
+   height: 60px;
+   text-align: left !important;
+   text-decoration: none;
+  } 
+ 
+  .card-header { 
+    padding: 0px !important;
+  }
+ 
+  .card {
+    box-shadow: 0 2px 25px 0 rgba(110, 130, 208, 18);
+    }
+ 
+   .btn-link::after {
+     content: '\2212';
+     width: 35px;
+     font-size: 35px;
+     text-align: left;
+     right: 15px;
+     top: 11px;
+     position: absolute;
+   }
+ 
+   .btn-link.collapsed:after {
+     content: '\002B';
+   }
+ 

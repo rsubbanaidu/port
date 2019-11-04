@@ -1,0 +1,60 @@
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+  }
+  #sideNav .navbar-toggler:focus {
+    outline-color: #d48a6e;
+  }
+  .line {
+    height: 45px;
+    margin: 0 auto 20px;
+    line-height: 25px;
+    font-size: 14px;
+    color:#fff;
+    padding: 0 0 0 5px;
+    position: relative;  
+    }
+  
+  .line:before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 25px;
+    top: 0;
+    z-index: -2;
+    background: #00A3A1;
+    border-radius: 50px 50px 50px 50px;
+  }
+  
+  .line:after {
+    content: '';
+    background: #00338d;
+    height: 25px;
+    transition: 0.8s;
+    display: block;
+    width: 100%;
+    animation: animate 1 4s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    border-radius: 50px 50px 50px 50px;
+  }
+  
+  
+  .name_sub {
+    font-size: 15px;
+    margin: 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .name_head 
+ {
+    font-size: 20px;
+    margin: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
