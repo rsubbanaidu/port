@@ -8,7 +8,7 @@
     padding-top: 25px;
     color: #868e96;
   }
- 
+
   h3 {
     font-size: 2rem;
   }
@@ -25,7 +25,7 @@
       padding-left: 17rem;
     }
   }
-  
+
   @media (min-width: 992px) {
     #sideNav {
       text-align: center;
@@ -106,5 +106,4 @@
   a:hover {
     color: #824027;
   }
-  
-  
+

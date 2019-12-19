@@ -9,22 +9,19 @@ h1,
     color: #483698;
   }
   .name {
-     font-family: 'Pattaya', sans-serif;
-     font-family: 'Lobster', cursive;
-     font-family: 'Pacifico', cursive;
-     font-family: 'Satisfy', cursive;
-  
+    font-family: Arial, Helvetica, sans-serif;
+
   }
   h1 {
-    font-size: calc(25px + (90 - 25) * ((100vw - 350px) / (1600 - 350)));
+    font-size: 55px;
     line-height: 5.5rem;
   }
   p.lead {
-    font-size: calc(8px + (25 - 8C:\Users\Rajkumar\Desktop\New folder (2)) * ((100vw - 350px) / (1600 - 350)));
+    font-size: 25px;
     font-weight: 400;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
   }
- 
+
   .social-icons a {
     display: inline-block;
     height: 3.5rem;
